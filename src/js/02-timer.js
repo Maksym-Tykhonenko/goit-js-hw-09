@@ -6,11 +6,11 @@ const refs = {
     countdownBtn: document.querySelector('[data-start]'),
     timer: document.querySelector('.timer'),
 }
-
+flatpickr(refs.input, options);
 refs.input.addEventListener('click', onSelektDate);
 refs.countdownBtn.addEventListener('click', onStartCountdown);
 
-flatpickr(refs.input, options);
+
 
 const options = {
   enableTime: true,
