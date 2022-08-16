@@ -18,7 +18,6 @@ function onChangeCol() {
     refs.btnStop.disabled = false;
 };
 
-
 function stopChangeCol(){
     clearInterval(intervalId);
     refs.btnStart.disabled = false;
